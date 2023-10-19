@@ -1,23 +1,20 @@
 # System intergration - MP2 System Integration Mini Project 2 - Business Process Modelling and Automation
 ## Table of contents
 - [Task requirements](#task-requirements)
+  - [Objectives:](#Objectives)
+  - [Tasks:](#Tasks)
+  - [The solution:](#The-solution)
 - [Step 1](#step-1)
   - [Folder structure:](#folder-structure)
 - [Step 2](#step-2)
-  - [EIP:](#EIP)
   - [Channels:](#Channels)
   - [Endpoints:](#Endpoints)
   - [Router:](#Router)
   - [Translator:](#Translator)
 - [Step 3](#step-3)
-  - [Interesting study objective](#interesting-study-objective)
-  - [Expected Solution](#expected-solution)
-  - [Impact and beneficiaries](#impact-and-beneficiaries)
-  - [Further development/improvements](#further-developmentimprovements)
 - [Step 4](#step-4)
   - [BMPN](#BPMN)
 # Task requirements
-Assignment
 ## Objectives
 The main objective of this task is to help you get familiar with the business context of system integration and to provide practical experience in modelling and automation of business processes by implementation of standard notation and integration patterns.
 ## Tasks
