@@ -15,7 +15,7 @@
   - [Impact and beneficiaries](#impact-and-beneficiaries)
   - [Further development/improvements](#further-developmentimprovements)
 - [Step 4](#step-4)
-  - [Streamlit](#streamlit)
+  - [BMPN](#BPMN)
 # Task requirements
 Assignment
 ## Objectives
@@ -85,4 +85,5 @@ While our utilization of EIP is focused and context-specific, it showcases how t
 
 
 # Step 4
-## 
+## BPMN
+[<img src="resources/IMAGES/BPMN_customer.png">](http://example.com/)
