@@ -1,4 +1,4 @@
-package bestcompany.complaints.service;
+package com.bestcompany.complaints.service;
 
 import bestcompany.complaints.service.LoggingService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -4,15 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging>
 
-  <!-- Choose one of the groupIds and artifactIds, or modify as needed -->
-  <groupId>io.devapo.camunda</groupId>
-  <artifactId>jms-connector-parent</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
-
-  <name>Devapo Camunda JMS connector parent project</name>
-  <description>Devapo Camunda JMS connector parent project</description>
-  <url>https://github.com/Devapo/camunda-jms-connector</url>
-
   <properties>
     <!-- Choose the desired property values, or modify as needed -->
     <camunda.spring-boot.version>7.19.0</camunda.spring-boot.version>
@@ -24,6 +15,11 @@
 
 
       <dependencies>
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+          <version>4.0.6.RELEASE</version>
+        </dependency>
         <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-dependencies</artifactId>

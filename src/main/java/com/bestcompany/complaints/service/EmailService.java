@@ -1,4 +1,4 @@
-package bestcompany.complaints.service;
+package com.bestcompany.complaints.service;
 
 import org.springframework.stereotype.Service;
 
