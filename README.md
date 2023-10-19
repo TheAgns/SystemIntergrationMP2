@@ -83,4 +83,4 @@ While our utilization of EIP is focused and context-specific, it showcases how t
 
 # Step 4
 ## BPMN
-[<img src="camunda/resources/IMAGES/BPMN_customer.png">](http://example.com/)
+[<img src="src/resources/IMAGES/BPMN_customer.png">](http://example.com/)

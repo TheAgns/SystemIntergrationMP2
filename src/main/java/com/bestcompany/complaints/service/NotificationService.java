@@ -1,6 +1,6 @@
 package com.bestcompany.complaints.service;
 
-import bestcompany.complaints.service.LoggingService;
+import com.bestcompany.complaints.service.LoggingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -2,10 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <artifactId>camundaComplaint</artifactId>
+  <groupId>project.complaint.camunda</groupId>
   <packaging>pom</packaging>
 
   <properties>
-    <!-- Choose the desired property values, or modify as needed -->
     <camunda.spring-boot.version>7.19.0</camunda.spring-boot.version>
     <spring-boot.version>2.7.10</spring-boot.version>
     <maven.compiler.release>17</maven.compiler.release>
@@ -13,13 +14,8 @@
 
   <dependencyManagement>
 
-
       <dependencies>
-        <dependency>
-          <groupId>org.springframework</groupId>
-          <artifactId>spring-context</artifactId>
-          <version>4.0.6.RELEASE</version>
-        </dependency>
+
         <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-dependencies</artifactId>
@@ -41,10 +37,20 @@
           <scope>import</scope>
           <type>pom</type>
         </dependency>
-        <!-- Additional dependencies specific to the second POM -->
+
         <dependency>
           <groupId>org.camunda.bpm</groupId>
           <artifactId>camunda-engine</artifactId>
+        </dependency>
+
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
 
 
@@ -53,7 +59,6 @@
 
   <build>
     <plugins>
-      <!-- Plugins from the first POM -->
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
