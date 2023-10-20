@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_00mnzg3" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.15.2" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
   <bpmn:collaboration id="Collaboration_13aowej">
-    <bpmn:participant id="Participant_Domain" name="Domain" processRef="Process_Domain" />
+    <bpmn:participant id="Participant_Domain" name="Customer Complaints" processRef="Process_Domain" />
   </bpmn:collaboration>
   <bpmn:process id="Process_Domain" isExecutable="true" camunda:historyTimeToLive="180">
     <bpmn:laneSet id="LaneSet_0mp4dif">
@@ -10,14 +10,12 @@
         <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Gateway_0gaf8e5</bpmn:flowNodeRef>
       </bpmn:lane>
-      <bpmn:lane id="Lane_1u1xa66" name="System">
+      <bpmn:lane id="Lane_02zvsmf" name="Customer service">
         <bpmn:flowNodeRef>Activity_0uyl1ae</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Gateway_1nn1nuu</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_1g27ner</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_0yjgjgc</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_04xpru1</bpmn:flowNodeRef>
-      </bpmn:lane>
-      <bpmn:lane id="Lane_02zvsmf" name="Customer service">
         <bpmn:flowNodeRef>Activity_0pmceeq</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_0d12fix</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_1r22rds</bpmn:flowNodeRef>
@@ -191,19 +189,15 @@
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_13aowej">
       <bpmndi:BPMNShape id="Participant_0wuuoy9_di" bpmnElement="Participant_Domain" isHorizontal="true">
-        <dc:Bounds x="129" y="80" width="1181" height="650" />
+        <dc:Bounds x="129" y="80" width="1141" height="650" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_1fwx91h_di" bpmnElement="Lane_1fwx91h" isHorizontal="true">
-        <dc:Bounds x="159" y="80" width="1151" height="120" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1u1xa66_di" bpmnElement="Lane_1u1xa66" isHorizontal="true">
-        <dc:Bounds x="159" y="470" width="1151" height="260" />
+        <dc:Bounds x="159" y="80" width="1111" height="120" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Lane_02zvsmf_di" bpmnElement="Lane_02zvsmf" isHorizontal="true">
-        <dc:Bounds x="159" y="200" width="1151" height="270" />
+        <dc:Bounds x="159" y="200" width="1111" height="530" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1sg7t02_di" bpmnElement="Activity_0uyl1ae">
