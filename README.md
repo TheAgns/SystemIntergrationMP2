@@ -69,4 +69,4 @@ Description: Our code includes message translation through the construction of e
 While our utilization of EIP is focused and context-specific, it showcases how these integration patterns can be effectively employed to streamline business processes and enhance communication with customers. These patterns play a pivotal role in orchestrating the exchange of information and automating key aspects of our operations.
 
 ## BPMN Diagram
-[<img src="src/resources/IMAGES/BPMN_customer.png">](http://example.com/)
+[<img src="BPMN_customer.png">](http://example.com/)
