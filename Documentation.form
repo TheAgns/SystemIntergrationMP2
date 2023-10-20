@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Valid",
+          "value": "Valid"
+        },
+        {
+          "label": "Invalid",
+          "value": "Invalid"
+        }
+      ],
+      "label": "Is documentation valid?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0xdc7gq",
+        "columns": null
+      },
+      "id": "Field_1i8stlh",
+      "key": "Documentation"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1kwtkqb",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

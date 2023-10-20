@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "label": "Email",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1sbyg3c",
+        "columns": null
+      },
+      "id": "Field_06whchq",
+      "key": "Email",
+      "validate": {
+        "validationType": "email",
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Regret purchase",
+          "value": "Regret"
+        },
+        {
+          "label": "Defect",
+          "value": "Defect"
+        },
+        {
+          "label": "Other",
+          "value": "Other"
+        }
+      ],
+      "label": "Subject",
+      "type": "select",
+      "layout": {
+        "row": "Row_0nstmbs",
+        "columns": null
+      },
+      "id": "Field_04gl2zv",
+      "key": "Reason",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Order ID",
+      "type": "number",
+      "layout": {
+        "row": "Row_1e567he",
+        "columns": null
+      },
+      "id": "Field_1to1yig",
+      "key": "OrderID",
+      "description": "The order on which user has a complaint.",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Explanation",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1jrdlk4",
+        "columns": null
+      },
+      "id": "Field_1snesfj",
+      "key": "Explanation"
+    }
+  ],
+  "type": "default",
+  "id": "ComplaintForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

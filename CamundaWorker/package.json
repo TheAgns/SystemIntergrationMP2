@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "camunda-external-task-client-js": "^3.0.1",
+    "nodemailer": "^6.9.6"
+  },
+  "type": "module"
+}
